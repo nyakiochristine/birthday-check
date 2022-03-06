@@ -3,42 +3,74 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    background-image: url(https://thumbs.dreamstime.com/z/frozen-lake-akan-hokkaido-was-born-eruption-volcano-surrounded-mount-meakan-oakan-105520306.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 h1{
     font-size: 45px;
     text-align: center;
+    background-color: rgb(33, 141, 204);
+
 }
 .intro{
     text-align-last: center;
     font-size: 28px;
 }
+.generate{
+    color: rgb(240, 232, 222);
+    padding: 15px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+
 .forms{
     height: 600px;
-   width: 600px;
+   width: 500px;
     border: 1px solid black;
     text-align: center;
-    padding: 5px;
+    padding-left: 85px;
     border-radius: 20px;
-    margin: 50px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(98, 143, 202);
+    justify-items: center;
+    border-style: none;
 }
 h2{
     padding: 10px;
     text-decoration: underline;
+    font-size: 35px;
+}
+li{
+    list-style: none;
 }
 .group{
     width: 300px;
     height: 100px;
 }
 #year{
-    padding: 10px;
-    width: 200px;
+    padding: 20px;
+    width: 300px;
+   
 }
 #month{
-    padding: 10px;
-    width: 150px;
+    padding: 20px;
+    width: 300px;
+    
 
+}
+#date{
+    padding: 20px;
+    width: 300px;
 }
 .group label{
     text-align: center;
+    font-size: 25px;
 }
 .tables{
     padding: 20px;
