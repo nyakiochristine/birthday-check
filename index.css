@@ -72,14 +72,3 @@ li{
     text-align: center;
     font-size: 25px;
 }
-.tables{
-    padding: 20px;
-}
-table{
-    margin: 30px;
-    border: 1px solid salmon;
-}
-table th{
-    padding:20px;
-    
-}
