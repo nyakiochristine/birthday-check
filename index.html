@@ -19,7 +19,7 @@
 
          
            
-            <form name="fm1" class="forms" onsubmit="validate();">
+            <form class="forms" action="submit">
                  <h2>Fill your details below</h2>
                  <ul>
 
@@ -37,26 +37,28 @@
                 </div>
                 </ul>
                 <div class="group">
-                  <label for="month">Gender</label><br>
+                  <label>Gender</label><br>
                   <div class="radios">
                     <label class="male">
                       <input type="radio"  name="gender" id="male"> Male 
                     </label>
                   </div>
-                  <div class="form-check-inline">
+                  <div class="female">
                     <label class="female">
                       <input type="radio"  name="gender" id="female"> Female 
                     </label>
                   </div>
                 </div>
-                <button type="submit" class="generate"  onclick="findName();">Get Name</button>
+                <button type="submit" id="generate">Get Name</button>
                 <br>
               </form>
               
         </div>
+        <footer>Akan.All Rights Reserved 2022</footer>
         
     
-    </div> 
+    </div>
+
 <script src="index.js"></script>    
 </body>
 </html>
