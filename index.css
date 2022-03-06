@@ -19,7 +19,7 @@ h1{
     text-align-last: center;
     font-size: 28px;
 }
-.generate{
+#generate{
     color: rgb(240, 232, 222);
     padding: 15px;
     border-style: none;
