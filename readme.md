@@ -9,6 +9,7 @@
 + [Description](#description)
 + [Installation Requirement](#Installation)
 + [Technology Used](#technology-used)
++ [Live link] (#Live-link)
 + [Reference](#reference)
 + [License](#licence)
 + [Author's Info](#author-info)
@@ -22,7 +23,7 @@
 ### Requirements
 
 + clone repository
-{<>}
+{<https://github.com/nyakiochristine/birthday-check>}
 *either a computer,phone,tablet or an Ipad
 *An access to the internet
 
@@ -37,6 +38,10 @@
 
 + CSS - which was used to style the landing page.
 + JAVASCRIPT- for functionality of the page.
+
+## Live Link
+
+<https://nyakiochristine.github.io/birthday-check/>
 
 ## License
 
