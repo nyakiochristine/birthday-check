@@ -1,16 +1,11 @@
-function getData()
-const userData = new FormData (form);
-const form = form;
+const userData = document.querySelector("forms");
+const getAkan = document.getElementById("generate");
+var Pickdate =document.getElementById("date"). value;
+var year = document.getElementById("year") . value;
+var month = document.getElementById("month").value;
 
 
-const buttonGen = document.querySelector(".generate")
-const genderInput = document.querySelectorAll(".radios")
-
-const datepicker = document.querySelector("#date").value;
-const year= document.querySelectorAll("year").value;
-const month = document.querySelector("month").value;
-
-
+let gender = userData.gender.value;
 const days= [
     "Sunday",
     "Monday",
@@ -22,7 +17,7 @@ const days= [
     
 ]
 
-const akanFemalenames= [
+let akanFemalenames= [
     "Akosua",
     "Adwoa",
     "Abenaa",
@@ -32,7 +27,7 @@ const akanFemalenames= [
     "Ama",
 
 ]
-const akanMalenames= [
+let akanMalenames= [
     "Kwasi",
     "Kwadwo",
     "Kwabena",
@@ -42,4 +37,14 @@ const akanMalenames= [
     "Kwame"
 
 ]
-let day= datepicker.getDay();
+
+
+var nameAkan;
+
+
+
+getAkan.addEventListener("click", (e) => {
+    e.preventDefault();
+}
+)
+
