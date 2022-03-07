@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    background-image: url(https://thumbs.dreamstime.com/z/frozen-lake-akan-hokkaido-was-born-eruption-volcano-surrounded-mount-meakan-oakan-105520306.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-bKIX-rQyEfUEfo8N5GTg6sYg3zShWXVVZw&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -12,12 +12,14 @@
 h1{
     font-size: 45px;
     text-align: center;
-    background-color: rgb(33, 141, 204);
+    background-color: rgb(49, 136, 187);
 
 }
 .intro{
     text-align-last: center;
-    font-size: 28px;
+    font-style: oblique;
+    font-size: 33px;
+    color:black
 }
 #generate{
     color: rgb(240, 232, 222);
